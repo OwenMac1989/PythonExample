@@ -1,10 +1,10 @@
 [build-system]
-requires = ["hatchling >= 1.26"]
+requires = ["hatchling == 1.21"]
 build-backend = "hatchling.build"
 
 [project]
 name = "example_package_tycreager"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Tyler Creager", email="tylercreager@my.cwi.edu" },
 ]
@@ -16,7 +16,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 license = "MIT"
-license-files = ["LICEN[CS]E*"]
+license-files.globs = ["LICEN[CS]E*"]
 
 [project.urls]
 Homepage = "https://github.com/pypa/sampleproject"
